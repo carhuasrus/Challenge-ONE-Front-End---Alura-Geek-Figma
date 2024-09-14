@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+header {
+    background-color: #3A0CA3;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.product-section {
+    width: 60%;
+}
+
+.add-product-section {
+    width: 30%;
+    background-color: #FFF;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #3A0CA3;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.product-card {
+    background-color: #3A0CA3;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 180px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #3A0CA3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5A24D3;
+}
+
+footer {
+    background-color: #3A0CA3;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Botones de Enviar y Limpiar */
+button {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: linear-gradient(135deg, #FF6F61, #FF4B3E);
+    color: white;
+    border: none;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(255, 111, 97, 0.4); /* Sombra llamativa */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+button:hover {
+    background: linear-gradient(135deg, #FF4B3E, #FF6F61);
+    box-shadow: 0 6px 15px rgba(255, 111, 97, 0.6); /* Sombra más intensa en hover */
+    align-items: center; /* Centra todos los elementos dentro del formulario */
+}
+
+/* Botón de eliminar */
+.delete-btn {
+    background-color: #E63946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(230, 57, 70, 0.4); /* Sombra roja */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-weight: bold;
+   
+}
+
+.delete-btn:hover {
+    background-color: #FF3E30;
+    box-shadow: 0 6px 15px rgba(230, 57, 70, 0.6); /* Sombra más brillante */
+}
+
+
